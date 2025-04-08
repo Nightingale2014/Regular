@@ -1,18 +1,12 @@
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App1 from "./page/test.jsx";
+// App.jsx
+import React from 'react';
 
-
-
-function App() {
-
+const App = () => {
   return (
-    <>
-     <Routes>
-         <Route path="/" element={<App1/>} />
-     </Routes>
-    </>
-  )
-}
+    <div>
+      <h1>Welcome to the App</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;

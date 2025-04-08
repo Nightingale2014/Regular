@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.js
+import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  resolve: {
+    alias: {
+      '@': '/src', // src 폴더를 쉽게 import 할 수 있도록 설정
+    },
+  },
+});

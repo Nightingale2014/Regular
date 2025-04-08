@@ -1,11 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import {BrowserRouter} from "react-router-dom";
+// App.jsx
+import React from 'react';  // 이 줄을 추가합니다.
 
-createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-)
+const App = () => {
+  return (
+    <div>
+      <h1>Welcome to my app!</h1>
+    </div>
+  );
+};
+
+export default App;
