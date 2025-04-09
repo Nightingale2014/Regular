@@ -1,6 +1,5 @@
 // src/data/discountData.js
-
-export const discountData = [
+const discountData = [
   {
     id: 1,
     title: "2025 <적벽>",
@@ -119,3 +118,5 @@ export const discountData = [
     image: "/images/wes.jpg"
   },
 ];
+
+export default discountData;
