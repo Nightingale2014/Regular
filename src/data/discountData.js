@@ -1,4 +1,5 @@
 // src/data/discountData.js
+
 const discountData = [
   {
     id: 1,
@@ -118,5 +119,4 @@ const discountData = [
     image: "/images/wes.jpg"
   },
 ];
-
 export default discountData;
